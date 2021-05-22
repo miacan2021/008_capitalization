@@ -18,7 +18,7 @@ for (let char of chars){
 let splitChars = char.split('');
 sentence.push(splitChars[0].toUpperCase() + splitChars.slice(1).join(''));
 }
-return sentence .join(' ');
+return sentence.join(' ');
 }
 
 console.log(capitalization1('i am koro'));
